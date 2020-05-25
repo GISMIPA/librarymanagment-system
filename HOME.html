@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library managment system</title>
+    <link rel = "stylesheet" href="STYLEHOME.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+   <nav>
+       <div class="toggle">
+        <i class="fa fa-bars menu" aria-hidden="true"></i>
+       </div>
+       <ul>
+           <li><a href ="HOME.html">HOME</a></li>
+           <li><a href ="LOGIN.html">LOGIN</a></li>
+           <li><a href ="signup.html">SIGNUP</a></li>
+       </ul>
+    </div>
+   </nav>
+   <div class="card" style="background-color: #141452;">
+    <br>
+<div class="card-body" id="Library">Library</div>
+<div>
+<div class="card  mb-3" id="setting">
+    <div class="row no-gutters ">
+        <div  class="col-md-3">
+            <img src="img/menimg.png" alt="..." class="center" width="100" height="100">
+        </div>
+        <div class="col-md-9">
+            <div class="card-body">
+                <h3 class="card-title text-muted">Repurpose content  to reach  a wider audience</h3>
+                <p class="card-text rounded  bg-secondary text-white" id="link">www.97th floor.com</p>
+                <p class="card-text"><small class="text-muted">2 hours ago.<a href="#" class="text-muted">Read More</a></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+          <div class="row no-gutters">
+              <div class="col-md-3">
+                  <img src= "img/men2.png"  alt="..."  class="center" width="100" height="100">
+              </div>
+              <div class="col-md-9">
+                  <div class="card-body">
+                      <h3 class="card-title text-muted">14 Useful  Sites  for Designers</h3>
+                      <p class="card-text rounded bg-secondary text-white" id="link">www.designers.com</p>
+                      <p class="card-text" style="padding-bottom: 20pt;"><small class="text-muted">Yesterday<a href="#" class="text-muted">Read More</a></p>
+                  </div>
+              </div>
+          </div>
+          <hr>
+          <div class="row no-gutters">
+            <div class="col-md-3">
+                <img src= "img/women.png"  alt="..."  class="center" width="100" height="100">
+            </div>
+            <div class="col-md-9">
+                <div class="card-body">
+                    <h3 class="card-title text-muted">Measuring your link building with google analytics</h3>
+                    <p class="card-text rounded bg-secondary text-white" id="link">www.searchengine.wafoh.com</p>
+                    <p class="card-text" style="padding-bottom: 20pt;"><small class="text-muted">Yesterday<a href="#" class="text-muted">Read More</a></p>
+                </div>
+            </div>
+        </div>
+<hr>
+<a href="#" class="btn btn-primary text-white" id="more">More</a>
+</div>
+<div class="Follow">
+    <p class="text-secondary"> Follow Us</p>
+    <div class="btn-group btn-group-sm btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary active bg-info">
+    <input type="radio" name="options" id="options1">Twitter
+        </label>
+        <label class="btn btn-secondary bg-primary">
+            <input type="radio" name="options" id="options2">Facebook
+        </label>
+        <label class="btn btn-secondary bg-danger">
+            <input ype="radio" name="options" id="options3">Google+
+        </label>
+    </div>
+</div>
+
+   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+   <script type="text/javascript">
+$(document).ready(function(){
+        $('.menu').click(function(){
+             $('ul').toggleClass('active');
+            })
+        
+})
+</script>
+
+    
+</body>
+</html>
